@@ -1,0 +1,139 @@
+<!DOCTYPE=html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Device</title>
+	</head>
+	<body>
+		<header>
+			<img class="logo" src="img/logo.png">
+			<div class="user_menu">
+				<ul class="user_buttons">
+					<li class="user_button"><input class="form" type="form" name="search" placeholder="Текст поиска"></input></li>
+					<li class="user_button"><button class="button" type="button" name="search">Найти</button></li>
+					<li class="user_button"><button class="button" type="button" name="input">войти</button></li>
+					<li class="user_button"><a href="#">сравнить</a></li>
+					<li class="user_button"><a href="#">корзина</a></li>
+				</ul>
+			</div>
+			<nav class="navigation_header">
+				<ul class="navigation_list">
+					<li class="navigation_item"><a href="#">КАТАЛОГ ТОВАРОВ</a></li>
+					<li class="navigation_item"><a href="#">+</a></li>
+					<li class="navigation_item"><a href="#">ДОСТАВКА</a></li>
+					<li class="navigation_item"><a href="#">ГАРАНТИЯ</a></li>
+					<li class="navigation_item"><a href="#">КОНТАКТЫ</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<main>
+			<header class="inner_header">
+				<h2 class="inner_header_tytle"> Моноподы для селфи</h2>
+				<ul class="inner_header_navi">
+					<li class="inner_header_navi_item"><a clsass="inner_link" href="index.html">Главная</a></li>
+					<li class="inner_header_navi_item">&#8250</li>
+					<li class="inner_header_navi_item"><a clsass="inner_link" href="index.html">Каталог товаров</a></li>
+					<li class="inner_header_navi_item">&#8250</li>
+					<li class="inner_header_navi_item"><a clsass="inner_link" href="catalog.html">Моноподы для селфи</a></li>
+				</ul>
+			</header>
+			<section class="catalog-products">
+				<h2 class="visually-hidden">Список товаров с фильтрами</h2>
+				<form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+					<fieldset class="catalog-filter-group">
+						<legend class="catalog-filter-title">Цена</legend>
+						<button class="range-toggle toggle-min" type="button">
+							<span class="visually-hidden" >Изменить минимальную цену</span>
+						</button>
+						<button class="range-toggle toggle-max" type="button">
+							<span class="visually-hidden" >Изменить максимальную цену</span>
+						</button>
+						<label class="catalog-filter-label">
+							от <input class="catalog-filter-input" type="number" name="min-price">Р
+						</label>
+						<label class="catalog-filter-label">
+							до <input class="catalog-filter-input" type="number" name="max-price">Р
+						</label>
+					</fieldset>
+					
+					<fieldset class="catalog-filter-group">
+						<legend class="catalog-filter-title">Производители</legend>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="bed-hed-for-men">
+							<span class="control-mark"></span>
+							<span class="control-label">Bed Head for Men</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="Homme-Deep-Cleansing-Cool">
+							<span class="control-mark"></span>
+							<span class="control-label">Homme Deep Cleansing Cool</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="So-Intense">
+							<span class="control-mark"></span>
+							<span class="control-label">So Intense</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="Sprekenhus">
+							<span class="control-mark"></span>
+							<span class="control-label">Sprekenhus</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="Firm Storе">
+							<span class="control-mark"></span>
+							<span class="control-label">Firm Storе</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="checkbox" name="Winter-Body">
+							<span class="control-mark"></span>
+							<span class="control-label">Winter Body</span>
+						</label>
+						
+					</fieldset>
+					
+					<fieldset class="catalog-filter-group">
+						<legend class="catalog-filter-title">Группы товаров</legend>
+						<label class="control">
+							<input class="visually-hidden control-input" type="radio" name="Product-group" value="shaving-supplies">
+							<span class="control-mark"></span>
+							<span class="control-label">Бритвенные принадлежности</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="radio" name="Product-group" value="care-products">
+							<span class="control-mark"></span>
+							<span class="control-label">Средства для ухода</span>
+						</label>
+						<label class="control">
+							<input class="visually-hidden control-input" type="radio" name="Product-group" value="accessories">
+							<span class="control-mark"></span>
+							<span class="control-label">Аксесуары</span>
+						</label>
+					</fieldset>
+					
+				<button class="button" type="submit">Показать</button>
+				</form>
+		</main>
+		<footer>
+			<div class="addres_footer">
+				<img class="addres_footer_logo" src="#" alt="logo">
+				<p class="addres_footer_text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+			</div>
+			<div class="footer_uslov">
+				<ul class="footer_uslov_links">
+					<li class="footer_uslov_links_item"><a class="footer_uslov_links" href="#">ДОСТАВКА</a></li>
+					<li class="footer_uslov_links_item"><a class="footer_uslov_links" href="#">ГАРАНТИЯ</a></li>
+					<li class="footer_uslov_links_item"><a class="footer_uslov_links" href="#">КОНТАКТЫ</a></li>
+				</ul>
+				<ul class="footer_uslov_socnet">
+					<li class="footer_uslov_socnet_item"><a class="footer_uslov_socnet" href="https://www.facebook.com/htmlacademy"><img class="footer_uslov_socnet_img" src="#" alt="fb"></a></li>
+					<li class="footer_uslov_socnet_item"><a class="footer_uslov_socnet" href="https://www.instagram.com/htmlacademy/"><img class="footer_uslov_socnet_img" src="#" alt="inst"></a></li>
+					<li class="footer_uslov_socnet_item"><a class="footer_uslov_socnet" href="https://www.twitter.com/htmlacademy_ru"><img class="footer_uslov_socnet_img" src="#" alt="tvit"></a></li>
+				</ul>
+			</div>
+			<div class="footer_tel">
+				<a class="footer-phone" href="tel:+78128121212">Тел.:+7 (812) 812-12-12</a>
+				<a class="htmlacademy_logo" href="https://www.htmlacademy.ru"><img class="footer_acad_logo" src="#" alt="html academy logo"></a>
+			<div>
+		</footer>
+	</body>
