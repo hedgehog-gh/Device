@@ -42,7 +42,7 @@
 				<h2 class="visually-hidden">Список товаров с фильтрами</h2>
 				<form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 					<fieldset class="catalog-filter-group">
-						<legend class="catalog-filter-title">Цена</legend>
+						<legend class="catalog-filter-title">Стоимость</legend>
 						<button class="range-toggle toggle-min" type="button">
 							<span class="visually-hidden" >Изменить минимальную цену</span>
 						</button>
@@ -58,61 +58,62 @@
 					</fieldset>
 					
 					<fieldset class="catalog-filter-group">
-						<legend class="catalog-filter-title">Производители</legend>
+						<legend class="catalog-filter-title">Цвет</legend>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="bed-hed-for-men">
+							<input class="visually-hidden control-input" type="checkbox" name="dlack">
 							<span class="control-mark"></span>
-							<span class="control-label">Bed Head for Men</span>
+							<span class="control-label">Черный</span>
 						</label>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="Homme-Deep-Cleansing-Cool">
+							<input class="visually-hidden control-input" type="checkbox" name="White">
 							<span class="control-mark"></span>
-							<span class="control-label">Homme Deep Cleansing Cool</span>
+							<span class="control-label">Белый</span>
 						</label>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="So-Intense">
+							<input class="visually-hidden control-input" type="checkbox" name="Blue">
 							<span class="control-mark"></span>
-							<span class="control-label">So Intense</span>
+							<span class="control-label">Синий</span>
 						</label>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="Sprekenhus">
+							<input class="visually-hidden control-input" type="checkbox" name="Red">
 							<span class="control-mark"></span>
-							<span class="control-label">Sprekenhus</span>
+							<span class="control-label">Красный</span>
 						</label>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="Firm Storе">
+							<input class="visually-hidden control-input" type="checkbox" name="Pink">
 							<span class="control-mark"></span>
-							<span class="control-label">Firm Storе</span>
+							<span class="control-label">Розовый</span>
+						</label>
+												
+					</fieldset>
+					
+					<fieldset class="catalog-filter-group">
+						<legend class="catalog-filter-title">Bluetooth</legend>
+						<label class="control">
+							<input class="visually-hidden control-input" type="radio" name="Product-group" value="yes">
+							<span class="control-mark"></span>
+							<span class="control-label">Есть</span>
 						</label>
 						<label class="control">
-							<input class="visually-hidden control-input" type="checkbox" name="Winter-Body">
+							<input class="visually-hidden control-input" type="radio" name="Product-group" value="no">
 							<span class="control-mark"></span>
-							<span class="control-label">Winter Body</span>
+							<span class="control-label">Нет</span>
 						</label>
 						
 					</fieldset>
 					
-					<fieldset class="catalog-filter-group">
-						<legend class="catalog-filter-title">Группы товаров</legend>
-						<label class="control">
-							<input class="visually-hidden control-input" type="radio" name="Product-group" value="shaving-supplies">
-							<span class="control-mark"></span>
-							<span class="control-label">Бритвенные принадлежности</span>
-						</label>
-						<label class="control">
-							<input class="visually-hidden control-input" type="radio" name="Product-group" value="care-products">
-							<span class="control-mark"></span>
-							<span class="control-label">Средства для ухода</span>
-						</label>
-						<label class="control">
-							<input class="visually-hidden control-input" type="radio" name="Product-group" value="accessories">
-							<span class="control-mark"></span>
-							<span class="control-label">Аксесуары</span>
-						</label>
-					</fieldset>
-					
 				<button class="button" type="submit">Показать</button>
 				</form>
+			<form class="sorting-type">
+					<label class="Label" for="sorting">Сортировка</label>
+					<select class="select-control" id="sorting" name="sorting">
+						<option value="popular">Популярные</option>
+						<option value="cheap">Дешевое</option>
+						<option value="expensive">Дорогое</option>
+					</select>
+					<button class="visually-hidden" type="submit">Отсортировать</button>
+				</form>
+			</section>	
 		</main>
 		<footer>
 			<div class="addres_footer">
